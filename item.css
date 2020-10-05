@@ -1,0 +1,33 @@
+* {
+    text-align: center;
+}
+
+h1 {
+    font-size: 30px;
+    size: 30px;
+}
+
+
+a:link {
+    color: #000000;
+}
+
+/* 未访问链接*/
+a:visited {
+    color: #e40f67;
+}
+
+/* 已访问链接 */
+a:hover {
+    color: #e945e9;
+}
+
+/* 鼠标移动到链接上 */
+a:active {
+    color: #0000FF;
+}
+
+/* 鼠标点击时 */
+form {
+    text-align: center;
+}

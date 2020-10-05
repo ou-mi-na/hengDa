@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <link rel="stylesheet" href="idex.css" />
+  <script src="jquery.min.js"></script>
+  <title>Document</title>
+  <script>
+    $(function () {
+      $(".nav>li>ul").hide();
+      $(".nav>li").mouseover(function () {
+        $(this).children("ul").show();
+      });
+
+      $(".nav>li").mouseout(function () {
+        $(this).children("ul").hide();
+      });
+      $(".poto li").mouseover(function () {
+        var index = $(this).index();
+
+        $(".tp>div").eq(index).show();
+        $(".tp>div").eq(index).siblings().hide();
+      });
+    });
+  </script>
+</head>
+
+<body>
+  <div class="r">
+    <ul class="nav">
+      <li>
+        <a href="#">我</a>
+        <ul>
+          <li><a href="#">是</a></li>
+          <li><a href="#">帅</a></li>
+          <li><a href="#">哥</a></li>
+        </ul>
+      </li>
+      <li>
+        <a href="#">是</a>
+        <ul>
+          <li><a href="#">王</a></li>
+          <li><a href="#">俊</a></li>
+          <li><a href="#">卡</a></li>
+        </ul>
+      </li>
+      <li>
+        <a href="#">帅</a>
+        <ul>
+          <li><a href="#">小</a></li>
+          <li><a href="#">伙</a></li>
+          <li><a href="#">子</a></li>
+        </ul>
+      </li>
+      <li>
+        <a href="#">女</a>
+        <ul>
+          <li><a href="#">中</a></li>
+          <li><a href="#">豪</a></li>
+          <li><a href="#">杰</a></li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+  <br />
+  <br />
+  <div class="z"></div>
+  <div class="x"></div>
+  <div class="c"></div>
+  <div>
+    <div class="poto">
+      <ul>
+        <li><a href="#">中</a></li>
+        <li><a href="#">你</a></li>
+        <li><a href="#">他</a></li>
+      </ul>
+    </div>
+    <div class="tp">
+      <div class="v" style="display: block">
+        <a href="#">
+          <img src="ii.img\2db3e75331f87c56748086e029a4e39.jpg" alt="" />
+        </a>
+      </div>
+      <div>
+        <a href="#">
+          <img src="ii.img\3b8b2b179d2c8f69cebbf4e57b3f506.jpg" alt="" />
+        </a>
+      </div>
+      <div>
+        <a href="#">
+          <img src="ii.img\6c30c74a55e15e2490ac73d97bf02d8.jpg" alt="" />
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <br />
+  <div class="lhh">
+    <ul>
+      <li><a href="#">路径</a></li>
+      <li><a href="#">谷歌</a></li>
+      <li><a href="#">经济</a></li>
+    </ul>
+  </div>
+  <div class="content">
+    <div style="display: block">hhhhwncgbk还是先阿卡什么叫还行啊</div>
+    <div>那我问我想不想去</div>
+    <div>你就在急急急急急急急急急急急急nn</div>
+  </div>
+</body>
+
+</html>
