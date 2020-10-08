@@ -1,13 +1,14 @@
 body {
   background-color: black;
 }
+
 li {
   color: rgb(10, 247, 247);
 
   list-style: none;
 }
 
-.nav > li {
+.nav>li {
   float: left;
   margin-left: 10px;
 }
@@ -15,11 +16,13 @@ li {
 * {
   padding: 0px;
 }
-.tp > div > a > img {
+
+.tp>div>a>img {
   width: 120px;
   height: 100px;
 }
-.tp > div {
+
+.tp>div {
   display: none;
 }
 
@@ -29,17 +32,21 @@ li {
   float: left;
   clear: both;
 }
+
 .tp {
   width: 130px;
   height: 300px;
   float: left;
 }
+
 .r {
   position: absolute;
 }
+
 * {
   padding: 0px;
 }
+
 .z {
   width: 30px;
   height: 30px;
@@ -53,12 +60,14 @@ li {
   background-color: rgb(250, 249, 253);
   float: left;
 }
+
 .c {
   width: 30px;
   height: 30px;
   background-color: rgb(240, 10, 10);
   float: left;
 }
+
 .lhh {
   clear: both;
 }
@@ -66,4 +75,24 @@ li {
 .content div {
   display: none;
   clear: both;
+}
+
+.a1 {
+  position: absolute;
+
+}
+
+.a1 img {
+  width: 430px;
+  height: 200px;
+}
+
+.a2 {
+  position: relative;
+
+}
+
+.a2 img {
+  width: 170px;
+  height: 200px;
 }
